@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=p">
+    <title>Player de Musica </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="duracao">
+            <div class="voltar">
+                <i class="fa-solid fa-angle-left"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="description">
+
+                <div class="img">
+
+                    <img src="https://via.placeholder.com/300.png" alt="">
+                </div>
+
+                <h2>Nome da Musica</h2>
+                <i>Fulano</i>
+
+            </div>
+
+            <div class="config">
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-repeat btn-repeat-on"></i>
+                <i class="fa-solid fa-repeat btn-repeat-off"></i>
+                <!-- <i class="fa-solid fa-repeat btn-repeat" onclick="repetirMusicaOFF()"></i> -->
+                <i class="fa-solid fa-volume-high btn-volume"></i>
+                <i class="fa-solid fa-volume-xmark btn-volume-off"></i>
+
+            </div>
+
+            <div class="tempo">
+                <p class="inicio">0:00</p>
+                <div class="barra">
+                    <progress value="0" max="1"></progress>
+                    <div class="ponto"></div>
+                </div>
+                <p class="fim">0:00</p>
+            </div>
+
+            <div class="player">
+                <i class="fa-solid fa-backward-step arrow arrow-left"></i>
+                <i class="fa-solid fa-play btn-play"></i>
+                <i class="fa-solid fa-pause btn-pause"></i>
+                <i class="fa-solid fa-forward-step arrow arrow-right"></i>
+            </div>
+            <audio src=""></audio>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2113f468da.js" crossorigin="anonymous"></script>
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
